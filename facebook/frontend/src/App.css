@@ -1,38 +1,185 @@
-.App {
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gree{
+  background-color: green;
+}
+.main
+{
+  background-color: rgb(240, 242, 245);
+  width: 100%;
+  height: 900px;
+}
+
+.left-side
+{
+  width: 50%;
+  height: 900px;
+  float: left;
+}
+.img-facebook {
+      height: 106px;
+      margin: -28px;
+      position: relative;
+      top: 204px;
+      left: 269px;
+}
+.text
+{
+ font-family: SFProDisplay-Regular,
+ Helvetica,
+ Arial,
+ sans-serif;
+ font-size: 28px;
+ line-height: 32px;
+ width: 500px;
+ position: relative;
+ top: 224px;
+ left: 269px;
+ }
+
+.right-side {
+  width: 50%;
+  height: 900px;
+  float: left;
+}
+.box
+{
+  
+  
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     width: 401px;
+     height: 342px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 9px;
+     position: relative;
+     top: 137px;
+     left: 87px;
+       box-shadow: -0px -0px 2px 2px  rgb(176, 176, 176),
+       -0px 0px 2px 2px rgb(176, 176, 176),
+       0px -0px 2px 2px rgb(176, 176, 176),
+       0px 0px 2px 2px rgb(176, 176, 176);
+
+}
+.ant-form-item-explain-error{
+  position: relative;
+  top: 22px;
+  left: 10px;
+}
+#inputID::placeholder {
+  color: #1d2129;
+  opacity: 0.5;
+  font-weight: 200;
+  font-size: 12px;
+  line-height:16px;
+  font-family: Arial, Helvetica, sans-serif!important;
+}
+
+.username
+{
+  
+      font-size: 13px;
+      font-weight: bold;
+      width: 355px;
+      top: 15px;
+      /* left: 12px; */
+      height: 51px;
+      border-radius: 10px;
+}
+.password 
+{
+      font-size: 13px;
+      width: 100%;
+      top: 25px;
+      border-radius: 10px;
+      /* left: 12px; */
+      height: 51px;
+}
+.btn1 {
   text-align: center;
+  width: 376px;
+  top: 25px;
+  border-radius: 10px;
+  /* left: -87px; */
+  height: 51px;
+  position: relative;
+  font-size: larger;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.forget
+{
+  position: relative;
+  left: 31%;
+  /* width: 376px;
+  top: 45px;
+  left: 37px;
+  height: 51px;
+  position: relative;
+  font-size: smaller; */
 }
+.forget a
+{
+text-decoration: none;
+color: #1877f2;
+font-size: 14px;
+font-weight: 400;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.line {
+  width: 348px;
+  background-color: rgb(211, 211, 211);
+  height: 0.5px;
+  /* position: relative;
+  left: 23px;
+  top: 35px; */
+  
 }
-
-.App-link {
-  color: #61dafb;
+.btn2 {
+     width: 195px;
+     /* top: 59px; */
+     left: 92px;
+     height: 48px;
+     position: relative;
+     font-size: larger;
+     background: rgb(66, 183, 42);
+     border-radius: 7px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn3 {
+  display: inline-block;
+  width: 50%;
+  font-weight: 400;
+  /* top: 59px; */
+  left: 92px;
+  height: 38px;
+  position: relative;
+  font-size: larger;
+  background: #009c00;
+  border-radius: 7px;
+}
+.btn2 a  {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 9px;
+  top: 7px;
+  left: 10px;
+  position: relative;
+}
+.f{
+  border: 2px solid #ebecee;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+.reguser{
+  width: 50%;
+}
+.regpass{
+  width: 50%;
 }
