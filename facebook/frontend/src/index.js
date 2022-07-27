@@ -1,19 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Buttton from './component/Buttton';
+
 import Hello from './component/Hello';
 import './index.css';
-// import App from './App';
 
-// import Login from './Login';
-import LoginFb from './LoginFb';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Hello/>
-{/* <LoginFb/>
-<Buttton/> */}
+
   </React.StrictMode>
 );
 
