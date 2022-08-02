@@ -1,6 +1,6 @@
 import React from "react";
 import "./Feed.css";
-import Post from "./Post";
+import Post from "../Post/Post";
 import PostCreator from "../PostCreator/PostCreator";
 import StoryReel from "../StoryReel/StoryReel";
 function Feed() {
