@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
-import SidebarRow from './SidebarRow'
+import SidebarRow from '../SidebarRow/SidebarRow'
 import userEvent from '@testing-library/user-event';
 import { Chat, EmojiFlags, Expand, LocalHospital, People, Storefront, VideoLibrary } from '@mui/icons-material';
 const Sidebar=()=> {
